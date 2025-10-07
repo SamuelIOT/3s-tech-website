@@ -1,0 +1,242 @@
+# Vibe Coding Instructions for 3S Tech Inc. Website
+
+## Brand Identity & Visual Direction
+
+**Company:** 3S Tech Inc.  
+**Tagline Ideas:** "From Cognos to Clarity" | "Intelligence, Migrated & Amplified" | "Your Bridge to Modern BI"
+
+**Core Vibe:** Professional yet approachable, data-driven elegance, transformation-focused
+
+---
+
+## Color Palette
+
+**Primary Colors:**
+- **Deep Navy Blue** (#0A2463) - Trust, enterprise-grade reliability
+- **Vibrant Cyan** (#00D9FF) - Innovation, data insights, Power BI alignment
+- **Electric Purple** (#6E3AFF) - AI intelligence, cutting-edge technology
+
+**Accent Colors:**
+- **Warm Coral** (#FF6B6B) - Cognos legacy (subtle nods)
+- **Bright Yellow** (#FFD93D) - Highlights, CTAs
+- **Cool Gray** (#F4F6F9) - Backgrounds, breathing room
+
+**Gradients:**
+- Primary: Navy → Cyan (diagonal, 135deg)
+- Accent: Purple → Cyan (for AI sections)
+- Subtle: Gray → White (for cards/sections)
+
+---
+
+## Typography
+
+**Headers:**
+- Font: **Inter Bold** or **Poppins Bold**
+- H1: 3.5rem (56px) - Hero titles
+- H2: 2.5rem (40px) - Section headers
+- H3: 1.75rem (28px) - Subsections
+
+**Body:**
+- Font: **Inter Regular** or **Roboto**
+- Size: 1.125rem (18px)
+- Line height: 1.7 for readability
+
+**Accent:**
+- Font: **JetBrains Mono** or **Fira Code** (for code/technical specs)
+- Use sparingly for technical keywords
+
+---
+
+## Layout & Structure
+
+### Hero Section
+```
+[Animated gradient background - Navy to Cyan]
+├─ Bold headline: "Migrate from Cognos to Power BI with Confidence"
+├─ Subheadline: "End-to-end BI migration powered by AI-assisted precision"
+├─ Dual CTAs: [Get Migration Assessment] [View Our Process]
+└─ Animated data flow visualization (Cognos → 3S Tech → Power BI)
+```
+
+### Services Section - "The Migration Journey"
+```
+Visual timeline/roadmap with 6 interconnected phases:
+
+1. ANALYSIS 🔍
+   - Cognos platform deep-dive
+   - Data sources, reports, security
+   - Iconography: Magnifying glass over interconnected nodes
+
+2. PLANNING 📋
+   - Scope & milestones
+   - Budget optimization
+   - Iconography: Gantt chart/roadmap visual
+
+3. DESIGN 🎨
+   - Power BI layouts
+   - UI/UX optimization
+   - Iconography: Wireframe/blueprint
+
+4. DEVELOPMENT ⚙️
+   - Environment setup
+   - Report building (Standard/Paginated)
+   - Iconography: Code brackets + Power BI logo
+
+5. TESTING ✅
+   - UAT & validation
+   - User feedback loops
+   - Iconography: Checklist with green checks
+
+6. MAINTENANCE 🔧
+   - Ongoing support
+   - Optimization
+   - Iconography: Gear/wrench with upward arrow
+
+Each phase card:
+- Hover effect: Lift + glow
+- Expandable: Click to reveal detailed deliverables
+- Connection lines: Animated flow between phases
+```
+
+### AI Assistant Feature Highlight
+```
+[Glowing purple gradient section]
+├─ Headline: "AI-Powered Precision at Every Step"
+├─ Animated robot/brain icon
+├─ 3-column benefits:
+   │  ├─ Automated Analysis
+   │  ├─ Smart Recommendations
+   │  └─ Quality Assurance
+└─ Subtle particle animation background
+```
+
+### Social Proof / Case Studies
+```
+[Slider/carousel format]
+├─ Client logo (grayscale, color on hover)
+├─ Migration stats: "500+ Reports Migrated" | "30% Faster Delivery"
+├─ Testimonial quote
+└─ Industry tags (Finance, Healthcare, Retail)
+```
+
+---
+
+## Interactive Elements
+
+### Animations
+1. **Hero:** Gentle floating data particles moving from left (Cognos colors) to right (Power BI colors)
+2. **Service Cards:** Staggered fade-in on scroll (100ms delay between each)
+3. **Process Flow:** Animated dashed line connecting phases, drawing from left to right
+4. **AI Section:** Pulsing glow effect around AI icon
+5. **Hover States:** 
+   - Cards: `transform: translateY(-8px)` + soft shadow
+   - Buttons: Background gradient shift + slight scale
+
+### Micro-interactions
+- **CTAs:** Ripple effect on click
+- **Navigation:** Underline slide-in on hover (cyan color)
+- **Form Inputs:** Border glow (cyan) on focus
+- **Stats Counters:** Count-up animation when scrolled into view
+
+---
+
+## Component Styling
+
+### Buttons
+```css
+Primary CTA:
+- Background: Linear gradient (Purple → Cyan)
+- Padding: 16px 32px
+- Border-radius: 8px
+- Font: Bold, 16px
+- Hover: Shift gradient, scale(1.05)
+- Shadow: 0 4px 20px rgba(110, 58, 255, 0.3)
+
+Secondary:
+- Border: 2px solid Cyan
+- Background: Transparent
+- Hover: Fill with cyan, white text
+```
+
+### Cards
+```css
+- Background: White
+- Border-radius: 12px
+- Padding: 32px
+- Shadow: 0 2px 12px rgba(0,0,0,0.08)
+- Hover shadow: 0 8px 24px rgba(0,0,0,0.12)
+- Transition: all 0.3s ease
+```
+
+### Icons
+- Style: **Lucide** or **Heroicons** (outline style)
+- Size: 32px for feature icons, 24px for UI
+- Color: Cyan primary, Purple for AI features
+
+---
+
+## Content Tone
+
+**Headlines:** Bold, transformation-focused  
+*Examples:*
+- "Your Cognos Legacy, Power BI Future"
+- "Migration Without the Migraine"
+- "Intelligence That Travels Well"
+
+**Body Copy:** Clear, consultative, technical credibility  
+- Use phrases like: "We analyze every dependency" | "Automated lineage mapping" | "Zero data loss guarantee"
+- Avoid: Jargon overload, generic tech speak
+
+**CTAs:** Action-oriented, low-friction  
+- ✅ "Start Your Assessment"  
+- ✅ "See Migration Roadmap"  
+- ❌ "Contact Us" (too generic)
+
+---
+
+## Sections Breakdown
+
+1. **Hero** - Visual impact + core value proposition
+2. **Trust Bar** - Client logos (if available) or stat highlights
+3. **Problem/Solution** - "Why Migrate?" brief section
+4. **Services (6-Phase Journey)** - Interactive roadmap
+5. **AI Differentiation** - Dedicated purple section
+6. **Case Studies** - Slider with metrics
+7. **About 3S Tech** - Team/expertise (optional)
+8. **CTA Section** - "Ready to migrate?" with form
+9. **Footer** - Contact, social, resources
+
+---
+
+## Technical Implementation Notes
+
+- **Framework:** React (with Tailwind CSS) for component reusability
+- **Animations:** Framer Motion or GSAP for smooth interactions
+- **Icons:** Lucide-react
+- **Responsiveness:** Mobile-first, breakpoints at 640px, 1024px, 1280px
+- **Performance:** Lazy-load images, optimize SVGs, use Intersection Observer for scroll animations
+
+---
+
+## Do's & Don'ts
+
+✅ **Do:**
+- Use whitespace generously (BI audiences value clarity)
+- Show process transparency (builds trust)
+- Emphasize "AI-assisted" (not fully automated - implies oversight)
+- Include specific technical terms (FM models, paginated reports) for credibility
+
+❌ **Don't:**
+- Overcomplicate navigation (single-page scroll or max 5 pages)
+- Use stock photos of generic "business people"
+- Make it look like a basic SaaS template (you're consultative, not commodity)
+- Hide the technical complexity (your audience appreciates depth)
+
+---
+
+## Inspiration Keywords for AI Image Generation (if needed)
+"Modern data dashboard interface, holographic blue and purple, flowing data streams, minimalist enterprise design, glowing connection nodes, dark navy background, cyan accent lights, 3D isometric business intelligence visualization"
+
+---
+
+**Ready to code?** Start with the hero section to establish the vibe, then build out the 6-phase service cards with hover interactions. The AI section should feel like a "wow" moment with the purple gradient treatment. Keep animations subtle but present—this is enterprise software, not a gaming site, but modern BI buyers expect polish.
