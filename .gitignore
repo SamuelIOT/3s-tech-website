@@ -24,3 +24,6 @@ dist-ssr
 *.sw?
 
 .vercel
+
+# Nested git repository
+3s-tech-website/
