@@ -6,6 +6,7 @@ import ProblemSolution from './components/ProblemSolution'
 import MigrationJourney from './components/MigrationJourney'
 import AIFeature from './components/AIFeature'
 import CaseStudies from './components/CaseStudies'
+import About from './components/About'
 import CTASection from './components/CTASection'
 import Footer from './components/Footer'
 import AIChatbot from './components/AIChatbot'
@@ -20,6 +21,7 @@ function App() {
       <MigrationJourney />
       <AIFeature />
       <CaseStudies />
+      <About />
       <CTASection />
       <Footer />
       <AIChatbot />
