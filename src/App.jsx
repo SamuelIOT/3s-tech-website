@@ -20,7 +20,7 @@ function App() {
       <ProblemSolution />
       <MigrationJourney />
       <AIFeature />
-      <CaseStudies />
+      {/* <CaseStudies /> - Hidden until we have real client testimonials */}
       <About />
       <CTASection />
       <Footer />

@@ -17,7 +17,6 @@ const Navigation = () => {
   const navItems = [
     { label: 'Services', href: '#services' },
     { label: 'AI Assistant', href: '#ai-feature' },
-    { label: 'Case Studies', href: '#case-studies' },
     { label: 'About', href: '#about' },
   ]
 

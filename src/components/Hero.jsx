@@ -98,16 +98,16 @@ const Hero = () => {
               className="grid grid-cols-3 gap-6 mt-12 pt-8 border-t border-cyan/30"
             >
               <div>
-                <div className="text-3xl font-bold text-cyan">500+</div>
-                <div className="text-sm text-gray-400">Reports Migrated</div>
-              </div>
-              <div>
-                <div className="text-3xl font-bold text-cyan">30%</div>
-                <div className="text-sm text-gray-400">Faster Delivery</div>
+                <div className="text-3xl font-bold text-cyan">AI</div>
+                <div className="text-sm text-gray-400">Powered Process</div>
               </div>
               <div>
                 <div className="text-3xl font-bold text-cyan">100%</div>
                 <div className="text-sm text-gray-400">Data Accuracy</div>
+              </div>
+              <div>
+                <div className="text-3xl font-bold text-cyan">24/7</div>
+                <div className="text-sm text-gray-400">Support</div>
               </div>
             </motion.div>
           </motion.div>

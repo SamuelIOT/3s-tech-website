@@ -1,5 +1,5 @@
 import React from 'react'
-import { Linkedin, Twitter, Mail, Phone, MapPin } from 'lucide-react'
+import { Linkedin, Twitter, Mail, MapPin } from 'lucide-react'
 
 const Footer = () => {
   return (
@@ -55,11 +55,6 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="#case-studies" className="text-gray-400 hover:text-cyan transition-colors">
-                  Case Studies
-                </a>
-              </li>
-              <li>
                 <a href="#about" className="text-gray-400 hover:text-cyan transition-colors">
                   About
                 </a>
@@ -78,21 +73,15 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-start">
                 <Mail className="text-cyan mr-2 flex-shrink-0 mt-1" size={18} />
-                <a href="mailto:info@3stech.com" className="text-gray-400 hover:text-cyan transition-colors">
-                  info@3stech.com
-                </a>
-              </li>
-              <li className="flex items-start">
-                <Phone className="text-cyan mr-2 flex-shrink-0 mt-1" size={18} />
-                <a href="tel:+1234567890" className="text-gray-400 hover:text-cyan transition-colors">
-                  +1 (234) 567-890
+                <a href="mailto:3stech.inc@gmail.com" className="text-gray-400 hover:text-cyan transition-colors">
+                  3stech.inc@gmail.com
                 </a>
               </li>
               <li className="flex items-start">
                 <MapPin className="text-cyan mr-2 flex-shrink-0 mt-1" size={18} />
                 <span className="text-gray-400">
-                  123 Business Ave<br />
-                  San Francisco, CA 94102
+                  Ottawa, Ontario<br />
+                  K2C 1R4, Canada
                 </span>
               </li>
             </ul>
@@ -102,9 +91,14 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-white/10">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <p className="text-gray-400 text-sm mb-4 md:mb-0">
-              © {new Date().getFullYear()} 3S Tech Inc. All rights reserved.
-            </p>
+            <div className="text-center md:text-left mb-4 md:mb-0">
+              <p className="text-gray-400 text-sm mb-1">
+                © {new Date().getFullYear()} 3S Tech Inc. All rights reserved.
+              </p>
+              <p className="text-gray-500 text-xs">
+                IBM and Cognos are trademarks of IBM Corporation. Microsoft and Power BI are trademarks of Microsoft Corporation.
+              </p>
+            </div>
             <div className="flex space-x-6 text-sm">
               <a href="#" className="text-gray-400 hover:text-cyan transition-colors">
                 Privacy Policy

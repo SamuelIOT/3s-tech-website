@@ -4,9 +4,9 @@ import { Target, Users, Award, TrendingUp, Globe, Shield, Zap, Heart } from 'luc
 
 const About = () => {
   const stats = [
-    { number: '500+', label: 'Reports Migrated', icon: TrendingUp },
-    { number: '50+', label: 'Happy Clients', icon: Users },
-    { number: '99%', label: 'Success Rate', icon: Award },
+    { number: 'AI', label: 'Powered Process', icon: TrendingUp },
+    { number: '10+', label: 'Years Experience', icon: Users },
+    { number: '100%', label: 'Data Accuracy', icon: Award },
     { number: '24/7', label: 'Support', icon: Shield },
   ]
 
@@ -106,7 +106,7 @@ const About = () => {
             </div>
             <div className="space-y-6 text-gray-700 leading-relaxed text-lg">
               <p>
-                Founded by industry veterans with decades of combined experience in Business Intelligence, 
+                Founded by industry veterans with over a decade of combined experience in Business Intelligence, 
                 3S Tech Inc. was born out of a simple observation: organizations were struggling with complex, 
                 time-consuming, and risky Cognos to Power BI migrations.
               </p>
@@ -117,11 +117,11 @@ const About = () => {
               <p>
                 That's when we developed our proprietary AI-powered migration framework—a revolutionary approach 
                 that combines automated analysis, intelligent mapping, and rigorous validation to deliver migrations 
-                that are <strong>30% faster</strong> and <strong>100% accurate</strong>.
+                with <strong>100% data accuracy</strong> and significantly reduced timelines.
               </p>
               <p>
-                Today, we're proud to be the trusted partner for organizations across healthcare, finance, 
-                manufacturing, and retail sectors, helping them modernize their BI infrastructure with confidence.
+                We're committed to helping organizations across healthcare, finance, manufacturing, and retail 
+                sectors modernize their BI infrastructure with confidence and precision.
               </p>
             </div>
           </div>
@@ -199,7 +199,7 @@ const About = () => {
                 <span className="text-white font-bold">✓</span>
               </div>
               <div>
-                <strong>Proven Methodology:</strong> Our 5-phase migration framework has successfully delivered 500+ migrations.
+                <strong>Proven Methodology:</strong> Our 5-phase migration framework ensures systematic, thorough migration delivery.
               </div>
             </div>
             <div className="flex items-start">
