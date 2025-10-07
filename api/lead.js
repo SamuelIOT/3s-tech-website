@@ -29,6 +29,14 @@ export default async function handler(req, res) {
     const smtpRequireTLS = String(process.env.LEAD_SMTP_REQUIRE_TLS || 'true').toLowerCase() === 'true'
     const toEmail = process.env.LEAD_NOTIFY_EMAIL || smtpUser
 
+    console.log('[DEBUG] Environment check:', {
+      hasHost: !!smtpHost,
+      hasPort: !!smtpPort,
+      hasUser: !!smtpUser,
+      hasPass: !!smtpPass,
+      hasToEmail: !!toEmail
+    })
+
     if (!smtpHost || !smtpPort || !smtpUser || !smtpPass || !toEmail) {
       console.error('Lead notification env vars missing')
       return res.status(500).json({ error: 'Server email configuration missing. Please set LEAD_SMTP_HOST, LEAD_SMTP_PORT, LEAD_SMTP_USER, LEAD_SMTP_PASS, and LEAD_NOTIFY_EMAIL.' })
